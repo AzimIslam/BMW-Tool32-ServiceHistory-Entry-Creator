@@ -120,7 +120,7 @@ import logoTransparent from './assets/fulllogo_transparent.png'
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(item, index) in serviceEntries">
+                <tr v-for="(item, index) in serviceEntries" :key="index">
                   <td class="pa-2">{{ item.name }}</td>
                   <td class="pa-2">{{ item.maintenance }}</td>
                   <td class="pa-2">{{ item.distanceRemaining + `${mileageUnit}` }}</td>

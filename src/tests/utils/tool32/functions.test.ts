@@ -1,8 +1,7 @@
-import { expect, it, describe, beforeAll } from 'vitest'
+import { expect, it, describe } from 'vitest'
 import { BMWService, MaintenanceStatus, MileageUnit, ServiceItem } from '@/utils/tool32/enums'
 import type { ServiceEntry } from '../../../utils/tool32/types'
 import { createServiceHistoryEntryArg } from '@/utils/tool32/functions'
-import InvalidArgumentException from '@/utils/tool32/exceptions/InvalidArgumentException'
 
 describe('#createServiceHistoryEntryArg', () => {
   const testDate = new Date(2024, 3, 13)

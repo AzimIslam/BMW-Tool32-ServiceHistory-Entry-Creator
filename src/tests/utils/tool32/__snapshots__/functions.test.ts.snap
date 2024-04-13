@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`#createServiceHistoryEntryArg > should throw InvalidArgumentException when an entry has on time service with remaining distance or mileage > InvalidArgumentException: Cannot generate argument, if there are no service entries 1`] = `[InvalidArgumentException: Illegal state, cannot service on time and have remaining distance or mileage left.]`;
+
+exports[`#createServiceHistoryEntryArg > should throw InvalidArgumentException when no services are provided > InvalidArgumentException: Cannot generate argument, if there are no service entries 1`] = `[InvalidArgumentException: Cannot generate argument, if there are no service entries]`;

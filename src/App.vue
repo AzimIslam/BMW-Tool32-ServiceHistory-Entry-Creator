@@ -97,7 +97,7 @@ import logoTransparent from './assets/fulllogo_transparent.png'
                   prepend-icon="fa-regular fa-copy"
                   color="secondary"
                   v-bind="props"
-                  :disabled="this.serviceEntries.length === 0"
+                  :disabled="serviceEntries.length === 0"
                   @click="copyGeneratedArgument"
                   >Copy Generated Argument</v-btn
                 >
